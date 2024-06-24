@@ -15,3 +15,24 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.linkLi{
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  transition: .5s;
+}
+
+.linkLi:hover{
+  color: red;
+  text-decoration: underline;
+  
+  cursor: pointer;
+}
+
+
+ol{
+  display: flex;
+  gap: 50px;
+}
+
